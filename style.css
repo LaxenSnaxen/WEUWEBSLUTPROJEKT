@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 
 body
 {
@@ -72,10 +77,11 @@ li a:hover
     overflow-y: auto;
     margin-left: 10vw;
     margin-right: 10vw;
+    line-height: 4.5vh;
   }
   #section2 {
     flex-grow: 4;
-    overflow-y: auto;
+    overflow-y: none; 
   }
   
   .image-list {
@@ -184,13 +190,15 @@ li a:hover
   margin-right: 10vw;
   text-align: center;
   line-height: 5vh;
+  margin: 1em;
+
 
 }
 
 #kontakt strong
 {
   font-size: 3vh;
-  line-height: 30vh;
+  line-height: 20vh;
 }
 
 @media (max-width: 768px) {
@@ -213,5 +221,17 @@ li a:hover
 
   .image-list {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  #kontakt strong
+  {
+    line-height: 15vh;
+  }
+
+  #meny
+  {
+    width: 101vw;
+
+    
   }
 }

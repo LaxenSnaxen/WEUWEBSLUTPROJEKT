@@ -3,3 +3,7 @@
 Jag påbörjade lektionen med att lägga till en footer som endast visare då mus pekaren är långt ner på skärmen, eller då ett finger trycker långt ner på mobilskärmen.
 Ett problem uppstod då java scripten endast fungerade då en viss html sträng var med, vilket resulterade i att koden endast fungerade på en utav tre subdomän.
 Detta korrigerade jag genom att lägga till ytterligare skript som gjorde att min popup skript endast kördes om korrekt html var på plats. Det resulterade i att skripten fungerade på alla tre subdomän.
+
+2025-05-20, log 2.
+
+Webbsidan är färdig, alla planerade funktioner är färdiga. Webbsidan ör kompatibel med både google chrome och firefox. Samt fungerar på mobila enheter tack vare flexbox och responsiv design.
